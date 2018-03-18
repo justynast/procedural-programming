@@ -5,17 +5,15 @@ int main()
 {
     int i;
 
-    for (i = 1; i < 101; i++){
+    for (i = 1; i <= 100; i++){
 
         if (i%3==0){
-            printf("X");
+            printf("X\n");
         }
 
         else{
-            printf("%i", i);
+            printf("%i\n", i);
         }
-
-        printf("\n");
     }
     return 0;
 }
