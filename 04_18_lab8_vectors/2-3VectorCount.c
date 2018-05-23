@@ -80,9 +80,9 @@ int main()
 
       countVector(vec,countVec);
 
-      for(i=0; i<=10; i++)
+      for(i=1; i<=10; i++)
       {
-          printf("Number %i occurs %i times\n", i, countVec[i-1]);
+          printf("\nNumber %i occurs %i times", i, countVec[i-1]);
       }
 
       return EXIT_SUCCESS;
